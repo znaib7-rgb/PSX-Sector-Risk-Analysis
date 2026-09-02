@@ -44,6 +44,7 @@ All queries live in [`mp1_return_risk_queries.sql`](./mp1_return_risk_queries.sq
 ```bash
 psql -d your_database -f schema_create.sql
 \copy sector_prices FROM 'all_sector_prices.csv' CSV HEADER
-\copy policy_events FROM 'sbp_policy_events_corrected.csv' CSV HEADER   https://docs.google.com/spreadsheets/d/1OPQrXDcjTX3TirGmFW1os4ISlZ31GGrUgLFzSHY9Qf0/edit?gid=1407734078#gid=1407734078
+\copy policy_events FROM 'sbp_policy_events_corrected.csv' CSV HEADER   
 psql -d your_database -f mp1_return_risk_queries.sql
 ```
+https://docs.google.com/spreadsheets/d/1OPQrXDcjTX3TirGmFW1os4ISlZ31GGrUgLFzSHY9Qf0/edit?gid=1407734078#gid=1407734078
